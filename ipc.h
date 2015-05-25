@@ -79,7 +79,7 @@ typedef struct {
 
 /**
     Call this function at the beginning of your programm whith a string containing the name of this processes inbox.
-    This name MUST be unique through all your processes.
+    This name MUST be the name of the executable and, i think, all executables have to be in the same dir atm.
     All messages sent to this string-name will be sent to this process.
 */
 int ipcInit(char* inboxname);
